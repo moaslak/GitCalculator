@@ -1,2 +1,5 @@
 # GitCalculator
-new git calc
+Git exercise for Hovedforløb 1.
+
+Collabs:
+Stefan
