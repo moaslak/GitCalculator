@@ -6,7 +6,12 @@ public class menuClass
     double Tal2;
     int operation = 0;
     Calc calc = new Calc();
-    InputHandler inputHandler = new InputHandler(); 
+    InputHandler inputHandler = new InputHandler();
+    
+    /// <summary>
+    /// Prints the menu and calls InputHandler and Calc.
+    /// Called by main and is looped indefinitly. Programmes closes when '5' is input into the menu.
+    /// </summary>
     public menuClass()
     {
         Console.WriteLine("GitCalculator");
