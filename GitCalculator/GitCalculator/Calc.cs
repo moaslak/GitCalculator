@@ -10,29 +10,38 @@ namespace GitCalculator
     {
         public double plus(double a, double b)
         {
-            return a + b;
+            double result = a + b;
+            Console.WriteLine("Result of addition is: " + result);
+            return result;
         }
 
         public double minus(double a, double b)
         {
-            return a - b;
+            double result = a - b;
+            Console.WriteLine("Result of subtraction is: " + result);
+            return result;
         }
 
         public double multiply(double a, double b)
         {
-            return a * b;
+            double result = a * b;
+            Console.WriteLine("Result of multiplication is: " + result);
+            return result;
         }
 
         public double div(double a, double b)
         {
+            double result = 0;
             if (b == 0)
             {
                 Console.Write("CANNOT DIVIDE BY ZERO");
-                return 0;
+                return result;
             }
             else
             {
-                return a / b;
+                result = a / b;
+                Console.WriteLine("Result of division is: " + result);
+                return result;
             }
         }
     }
